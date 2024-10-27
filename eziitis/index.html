@@ -1,8 +1,43 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <script src="../scripts.js"></script>
+    </head>
 <body>
-<h1>#2</h1>
-<p><i>Lūdzu</i>, atstāj tur, kur atradi. Es taisu dzimšanas dienas spēli manai sievai :)</p>
-<p>Pēc 27. oktobra visu noņemsim!</p>
+    <div class="content">
+        <p>SABAKA?</p>
+        <input id="uzdevums2" type="text">
+        <p><a href="#" onclick="checkUzdevums2()">GO</a></p>
+        <audio id="nepareizi1">
+            <source src="../mp3/no-human-voice-sound-effect-21-11104.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="nepareizi2">
+            <source src="../mp3/no-with-attitude-3-83643.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="nepareizi3">
+            <source src="../mp3/no-with-attitude-2-83644.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="nepareizi4">
+            <source src="../mp3/no-with-attitude-1-83642.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="nepareizi5">
+            <source src="../mp3/no-x5-95904.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="uzdevums hidden">
+        <h1 onclick="playUzdevums3()">🔊</h1>
+        <img src="../img/obs.jpg">
+        <h1 id="karte" class="centered"><a href="https://openstreetmap.org" target="_blank">🗺</a></h1>
+        <audio id="uzdevums3">
+            <source src="../mp3/p_31546985_195.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 </body>
 </html>

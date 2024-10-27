@@ -1,8 +1,41 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../scripts.js"></script>
+</head>
+
 <body>
-<h1>#0</h1>
-<p><i>Lūdzu</i>, atstāj tur, kur atradi. Es taisu dzimšanas dienas spēli manai sievai :)</p>
-<p>Pēc 27. oktobra visu noņemsim!</p>
+    <div class="content">
+        <h1 id="clickme" onclick="playSveiki1()">?</h1>
+
+        <audio id="sveiki1" onended="sveiki1()">
+            <source src="../mp3/95bf198231a947fca7c138323d386290.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="sveiki2" onended="sveiki2()">
+            <source src="../mp3/p_31541633_680.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="sveiki3" onended="sveiki3()">
+            <source src="../mp3/p_31542080_260.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="uzdevums hidden">
+        <h1 onclick="playUzdevums1()">🔊</h1>
+        <img src="../img/kaapa.jpg">
+        <h1 id="karte"><a href="https://openstreetmap.org" target="_blank">🗺</a></h1>
+        <h1 id="photo"><a href="../img/langa.jpg" target="_blank">📷</a></h1>
+        <audio id="uzdevums1">
+            <source src="../mp3/p_31543021_815.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- <p><i>Lūdzu</i>, atstāj tur, kur atradi. Es taisu dzimšanas dienas spēli manai sievai :)</p>
+<p>Pēc 27. oktobra visu noņemsim!</p> -->
 </body>
+
 </html>
